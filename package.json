@@ -1,0 +1,27 @@
+{
+  "name": "youtube-image-downloader",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "Downloads poster images from YouTube playlist items",
+  "main": "youtube-image-downloader.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:springload/youtube-image-downloader.git"
+  },
+  "keywords": [
+    "Youtube",
+    "Node.js"
+  ],
+  "author": "Springload",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/springload/youtube-image-downloader/issues"
+  },
+  "homepage": "https://github.com/springload/youtube-image-downloader",
+  "dependencies": {
+    "request": "^2.36.0",
+    "gm": "^1.17.0",
+    "youtube-api": "^0.3.0",
+    "mkdirp": "^0.5.0"
+  }
+}
